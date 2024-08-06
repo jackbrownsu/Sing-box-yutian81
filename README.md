@@ -25,6 +25,11 @@ curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o 
 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.sh)
 ```
 
+一键四协议William修改：vmess-ws|vmess-ws-tls(argo)|hy2|socks+哪吒
+```
+bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/serv00-sb4.sh)
+```
+
 一键三协议安装脚本vless-reality|hy2|tuic5 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
