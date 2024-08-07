@@ -46,6 +46,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/serv00-
 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
 ```
 
+TUIC 单协议
+```
+curl -s https://eooce.2go.us.kg/tu.sh | PORT=改为开放UDP端口 bash
+```
+
 # 3：游戏机hosting
 ## sing-box玩具四合一，默认解锁GPT和奈飞
 * node,python,java,go环境的游戏玩具搭建singbox节点，集成哪吒探针服务
