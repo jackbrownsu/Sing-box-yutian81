@@ -48,17 +48,17 @@ bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
 
 HY2 单协议+哪吒
 ```
-UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 PORT=UDP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-hy2.sh)
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-hy2.sh | PORT=UDP端口 UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 bash
 ```
 
 TUIC 单协议+哪吒
 ```
-UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 PORT=UDP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-tuic5.sh)
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-tuic5.sh | PORT=UDP端口 UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 bash
 ```
 
 vlss-ws-argo 单协议+哪吒,argo本地端口`2052`
 ```
-UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 NAME=serv03 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-vless.sh)
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-vless.sh | NAME=serv00 UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 bash
 ```
 
 # 3：游戏机hosting
