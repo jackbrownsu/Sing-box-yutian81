@@ -187,7 +187,7 @@ install_singbox() {
     rm -rf "${work_dir}/${server_name}.tar.gz" "${work_dir}/sing-box-${latest_version}-linux-${ARCH}"
     chown root:root ${work_dir} && chmod +x ${work_dir}/${server_name} ${work_dir}/argo ${work_dir}/qrencode
 
-    # 是否安装socks5
+    # 是否安装socks5。不要直连！该协议用于cmliu/edgetunnel项目中的PROXYIP变量
     reading "\n是否安装socks5？【y/n】: " choice
     case "$choice" in
         [Yy])
