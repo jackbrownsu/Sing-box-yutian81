@@ -46,9 +46,19 @@ bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/serv00-
 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
 ```
 
-TUIC 单协议
+HY2 单协议+哪吒
 ```
-curl -s https://eooce.2go.us.kg/tu.sh | PORT=改为开放UDP端口 bash
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-hy2.sh | PORT=UDP端口 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
+```
+
+TUIC 单协议+哪吒
+```
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-tuic5.sh | PORT=UDP端口 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
+```
+
+vlss-ws-argo 单协议+哪吒
+```
+curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-vless.sh | NAME=节点名称 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
 ```
 
 # 3：游戏机hosting
