@@ -973,7 +973,7 @@ if [ ${check_singbox} -eq 0 ]; then
                     green "\nsocks端口已修改为：${purple}${new_port}${re} ${green}请更新订阅或手动更改socks端口${re}\n"
                     ;;
                 5)  change_config ;;
-                *)  red "无效的选项，请输入 1 到 4" ;;
+                *)  red "无效的选项，请输入 1 到 5" ;;
             esac
             ;;
         2)
