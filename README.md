@@ -13,6 +13,10 @@ vps一键脚本修改版，五协议组合：vless-reality|vmess-ws-tls(argo)|hy
 bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/sb4-socks.sh)
 ```
 
+**注意**
+- **如果在CF官网手动设置argo隧道，Service要填写`http://localhost:8001`**
+- **socks5协议不要直连！不要直连！不要直连！该协议用于`cmliu/edgetunnel`项目中的`PROXYIP`变量**
+
 ssh综合工具箱一键脚本
 ```
 curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh && chmod +x ssh_tool.sh && ./ssh_tool.sh
