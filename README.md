@@ -48,17 +48,17 @@ bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
 
 HY2 单协议+哪吒
 ```
-curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-hy2.sh | PORT=UDP端口 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
+UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 PORT=UDP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-hy2.sh)
 ```
 
 TUIC 单协议+哪吒
 ```
-curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-tuic5.sh | PORT=UDP端口 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
+UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 PORT=UDP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-tuic5.sh)
 ```
 
-vlss-ws-argo 单协议+哪吒
+vlss-ws-argo 单协议+哪吒,argo本地端口`2052`
 ```
-curl -s https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-vless.sh | NAME=节点名称 NEZHA_SERVER=admin.cn NEZHA_PORT=5555 NEZHA_KEY=abc123 bash
+UUID=4967d7a9-0933-4351-ac2c-e8d1015ad629 NAME=serv03 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/containers-shell/00-vless.sh)
 ```
 
 # 3：游戏机hosting
