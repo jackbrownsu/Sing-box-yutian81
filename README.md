@@ -10,7 +10,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.s
 ```
 vps一键脚本修改版，五协议组合：vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5|socks5
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/sb4-socks.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/yutian81/Sing-box/main/sb4-00-socks.sh)
 ```
 
 **注意**
